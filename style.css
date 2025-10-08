@@ -1,0 +1,114 @@
+.head-1 {
+    background-color: rgb(228, 227, 227);
+    padding: 12px 0px;
+}
+
+.head-1 .container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.head-1 .container a {
+    text-decoration: none;
+    color: black;
+}
+
+.leaff i {
+    color: rgb(56, 133, 56);
+}
+
+.dbox {
+    color: white;
+    padding: 3px 7px;
+    background-color: rgb(41, 161, 41);
+    font-weight: 400;
+}
+
+.head-1 .container .dbox {
+    color: white;
+}
+
+.navbar-brand img {
+    height: 70px;
+    width: 120px;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-item a {
+    font-size: 13px;
+    font-weight: bolder;
+    color: black;
+}
+
+#head-2 {
+    position: sticky;
+    z-index: 9999;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar {
+    transition: all 2s;
+}
+
+.navbar:hover:playing { 
+    -webkit-transition: 1px gray;
+    padding: 0px;
+    nav-up: auto;
+}
+
+.counter {
+    background-color: #00748c;
+    padding: 50px;
+    text-align: center;
+}
+
+.justt {
+    text-align: justify;
+}
+
+.foot-1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 70px 0px;
+    border-bottom: 2px solid gray;
+}
+
+.bh6 {
+    border-left: 2px solid gray;
+    padding: 2px 10px;
+}
+
+.li a {
+    text-decoration: none;
+    padding: 1px;
+}
+
+.li {
+    border-bottom: 1px solid rgba(70, 68, 68, 0.8);
+}
+ .li i {
+    font-weight: bolder;
+    font-size: large;
+ }
+
+ .foot-2 {
+    background-color: black;
+ }
+ .final-f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+ }
+
+ .final-f p {
+    margin-top: 8px;
+    font-size: 13px;
+ }
