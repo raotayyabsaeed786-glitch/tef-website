@@ -35,17 +35,6 @@
     width: 120px;
 }
 
-#navbarNav {
-    display: flex;
-    justify-content: right;
-}
-
-.nav-item a {
-    font-size: 13px;
-    font-weight: bolder;
-    color: black;
-}
-
 #head-2 {
     position: sticky;
     z-index: 9999;
@@ -54,14 +43,10 @@
     width: 100%;
 }
 
-.navbar {
-    transition: all 2s;
-}
-
-.navbar:hover:playing { 
-    -webkit-transition: 1px gray;
-    padding: 0px;
-    nav-up: auto;
+.nav-item a {
+    font-size: 13px;
+    font-weight: bolder;
+    color: black;
 }
 
 .counter {
